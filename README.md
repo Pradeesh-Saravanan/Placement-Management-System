@@ -17,7 +17,7 @@ Guide users through installing your project locally. Provide step-by-step instru
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/yourusername/your-repository.git](https://github.com/Pradeesh-Saravanan/Placement-Management-System.git)
+   git clone https://github.com/Pradeesh-Saravanan/Placement-Management-System.git
    cd Placement-Management-System
    ```
 
