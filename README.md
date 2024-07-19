@@ -27,7 +27,7 @@ Guide users through installing your project locally. Provide step-by-step instru
    ```
 
 3. Set up CSV files:
-   - Ensure `Engineering.csv` and `Empolyer_preprocessed.csv` are placed in the project directory.
+   - Ensure files needed are placed in the project directory.
 
 ## Usage
 
@@ -47,7 +47,20 @@ Explain how to use your application. Include details on how to run the Flask ser
 Explain the structure of your project's directory and important files.
 
 ```
-project/
+Registration/
+│
+├── app.py               # Main Flask application file
+├── Engineering.csv      # CSV file containing user details
+├── static/              # Directory for static assets (CSS, JS)
+│   └── styles.css       # Stylesheet for HTML templates
+├── templates/           # Directory for HTML templates
+│   ├── index.html       # Template for entering User ID and Code
+│   ├── details.html     # Template for displaying user details and inputting placement details
+│   └── thank.html       # Template for displaying a thank you message
+└── results.csv          # CSV file to store placement confirmation details
+```
+```
+Recruitment/
 │
 ├── app.py               # Main Flask application file
 ├── Engineering.csv      # CSV file containing user details
@@ -63,7 +76,7 @@ project/
 
 ## Contributing
 
-Provide guidelines for others to contribute to your project if applicable.
+Contributions are welcome! Please fork the repository and submit pull requests for any enhancements, bug fixes, or new features.
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/new-feature`).
@@ -73,8 +86,8 @@ Provide guidelines for others to contribute to your project if applicable.
 
 ## License
 
-Specify the license under which your project is distributed.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## Contact
 
-This README template covers the essential aspects of your Flask project, ensuring that users and collaborators have clear instructions on installation, usage, project structure, and contribution guidelines. Adjust and expand each section based on your specific project's requirements and details.
+For questions or feedback, please contact [Pradeesh Saravanan](mailto:pradeeshpradeesh7040@gmail.com).
